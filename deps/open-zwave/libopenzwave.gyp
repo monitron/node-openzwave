@@ -96,6 +96,10 @@
         'cpp/src/value_classes/ValueShort.cpp',
         'cpp/src/value_classes/ValueStore.cpp',
         'cpp/src/value_classes/ValueString.cpp',
+        'cpp/src/aes/aes_modes.c',
+        'cpp/src/aes/aescrypt.c',
+        'cpp/src/aes/aeskey.c',
+        'cpp/src/aes/aestab.c',
         'cpp/src/vers.cpp',
         'cpp/tinyxml/tinystr.cpp',
         'cpp/tinyxml/tinyxml.cpp',
@@ -105,6 +109,7 @@
       'include_dirs': [
         'cpp/hidapi/hidapi',
         'cpp/src',
+        'cpp/src/aes',
         'cpp/src/command_classes',
         'cpp/src/platform',
         'cpp/src/platform/unix',
